@@ -1,8 +1,6 @@
-# FILE NAME - phishing_email_detector.py
-
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Joaquin Darby
+# DATE: 10/1/2025
+# BRIEF DESCRIPTION: Creating a phishing email detector with Python.  
 
 
 
@@ -15,6 +13,22 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+email_subject = input('Enter the email subject line: ')
+
+print('SECURITY ASSESSMENT:')
+if 'urgent' in email_subject.lower() or 'immediate action required' in email_subject.lower():
+    print('HIGH RISK: Possible phishing attempt.')
+
+elif 'win' in email_subject.lower() or 'free' in email_subject.lower():
+    print('MEDIUM RISK: Suspicious offer detected.')
+
+elif 'password reset' in email_subject.lower():
+    print('LOW RISK: Verify legitimacy with sender.')
+else:
+    print('No phishing indicators detected.')
+
+print('------------------------')
+print(f'Analyzed subject: "{email_subject}"')
 
 
 
