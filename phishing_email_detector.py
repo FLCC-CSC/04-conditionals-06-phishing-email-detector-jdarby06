@@ -1,6 +1,6 @@
 # NAME: Joaquin Darby
 # DATE: 10/1/2025
-# BRIEF DESCRIPTION:  
+# BRIEF DESCRIPTION: Creating a phishing email detector with Python.  
 
 
 
